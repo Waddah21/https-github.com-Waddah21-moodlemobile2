@@ -11,12 +11,12 @@
         University of science and technology official mobile app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="https://www.ust-elearning.net" email="innovative@isco.ca">
+        Innovative Solutions Co. Ltd
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.2</string>
+        <string>1.0</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
@@ -126,7 +126,7 @@
     </gap:plugin>
     <gap:plugin name="net.tunts.webintent" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="learnmoodle" />
+        <param name="URL_SCHEME" value="iscoapp" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
